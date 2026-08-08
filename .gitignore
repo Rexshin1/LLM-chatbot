@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python caching and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local environments and configurations
+.env
+.env.*
+
+# Project data and outputs (exclude large files and logs)
+data/raw/
+data/processed/
+checkpoints/
+logs/
+
+# IDE files
+.vscode/
+.idea/
